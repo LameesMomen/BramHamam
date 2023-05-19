@@ -82,7 +82,7 @@ html[lang='ar'] p
   box-sizing: border-box;
 }
 #preloader .loader::after {
-  content: 'BRAM HAMMAM';
+  content: 'BRAM HAMAM';
   position: absolute;
   left: 0;
   top: 0;
