@@ -9,6 +9,7 @@ body {
   font-family: "Open Sans", sans-serif;
   background: #0c0b09;
   color: #fff;
+  text-transform: capitalize;
 }
 
 a {
@@ -81,6 +82,13 @@ html[lang='ar'] p
   position: relative;
   box-sizing: border-box;
 }
+
+html[lang='ar'] #preloader .loader
+{
+  font-family: 'Noto Nastaliq Urdu', serif !important;
+  font-size: 50px !important;
+}
+
 #preloader .loader::after {
   content: 'BRAM HAMAM';
   position: absolute;
@@ -313,7 +321,7 @@ html[lang='ar'] #preloader .loader::after {
   left: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.9);
-  transition: 0.3s;
+  transition: 0.4s;
   z-index: 999;
 }
 
@@ -332,15 +340,14 @@ html[lang='ar'] #preloader .loader::after {
   left: 15px;
   padding: 10px 0;
   border-radius: 6px;
-  background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
 }
 
 .navbar-mobile a {
   padding: 10px 20px;
-  font-size: 15px;
-  color: #1a1814;
+  font-size: 20px;
+  color: #fff;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
@@ -854,7 +861,7 @@ section {
   cursor: pointer;
   display: inline-block;
   padding: 8px 12px 10px 12px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1;
   color: #fff;
@@ -1189,7 +1196,7 @@ html[lang='ar'] .contact .info i {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background-image:  linear-gradient(270deg, rgba(0, 0, 0, 0.733) 0%, rgba(0, 0, 0, 0.208) 0%, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.008) 100%, rgba(0, 0, 0, 0) 0%), url("../img/land.png");
+  background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.733) 0%, rgba(0, 0, 0, 0.208) 0%, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.008) 100%, rgba(0, 0, 0, 0) 0%), url("../img/land.png");
   background-size: 100% 100%;
   background-position:  bottom;
   background-repeat: no-repeat;
