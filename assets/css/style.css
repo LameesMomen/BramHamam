@@ -752,6 +752,10 @@ section {
   bottom: 10px;
 }
 
+.about .content{
+padding: 0 25px;
+}
+
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
